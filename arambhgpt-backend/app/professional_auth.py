@@ -3,7 +3,7 @@ from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pydantic import BaseModel
 from typing import Optional, List
 import bcrypt
-import jwt
+from jose import jwt
 from datetime import datetime, timedelta
 import json
 from .database import get_db_connection

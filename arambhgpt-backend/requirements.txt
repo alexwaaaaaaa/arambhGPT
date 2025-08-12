@@ -3,6 +3,7 @@ uvicorn[standard]
 websockets
 python-multipart
 python-jose[cryptography]
+PyJWT
 passlib[bcrypt]
 python-dotenv
 google-generativeai
@@ -11,3 +12,4 @@ pydantic[email]
 email-validator
 schedule
 apscheduler
+psycopg2-binary
