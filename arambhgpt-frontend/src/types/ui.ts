@@ -31,6 +31,7 @@ export interface ButtonProps {
   type?: 'button' | 'submit' | 'reset';
   className?: string;
   id?: string;
+  title?: string;
 }
 
 export interface InputProps {
